@@ -15,7 +15,7 @@ onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 onlyfiles.sort()
 
-link = 'https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-2/logicomp/aulas/'
+link = 'https://thiagoalvesifce.github.io/disciplinas/2016-2/logicomp/aulas/'
 
 #print link
 
@@ -55,7 +55,7 @@ onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 onlyfiles.sort()
 
-link = 'https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-2/logicomp/listas/'
+link = 'https://thiagoalvesifce.github.io/site/disciplinas/2016-2/logicomp/listas/'
 
 listRows = []
 
