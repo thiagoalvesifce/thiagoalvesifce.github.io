@@ -15,7 +15,7 @@ onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 onlyfiles.sort()
 
-link = 'https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-2/tcomp/aulas/'
+link = 'https://thiagoalvesifce.github.io/disciplinas/2016-2/tcomp/aulas/'
 
 #print link
 
@@ -55,7 +55,7 @@ onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 onlyfiles.sort()
 
-link = 'https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-2/tcomp/listas/'
+link = 'https://thiagoalvesifce.github.io/disciplinas/2016-2/tcomp/listas/'
 
 listRows = []
 
@@ -83,7 +83,7 @@ link = 'https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-2/tcom
 listRows = []
 
 for name in onlyfiles:
-	if name[-3:] == 'pdf' and name[:-1] != '~':
+	if (name[-3:] == 'pdf' or name[-3:] == 'zip') and name[:-1] != '~':
 		row = '<li><a href="' + link + name + '" target="_blank">' + name[:-4] + '</a></li>'
 		listRows.append(row)
 

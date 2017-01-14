@@ -15,7 +15,7 @@ onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 onlyfiles.sort()
 
-link = 'https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-2/fup/aulas/'
+link = 'https://thiagoalvesifce.github.io/disciplinas/2016-2/fup/aulas/'
 
 #print link
 
@@ -55,7 +55,7 @@ onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 onlyfiles.sort()
 
-link = 'https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-2/fup/listas/'
+link = 'https://thiagoalvesifce.github.io/disciplinas/2016-2/fup/listas/'
 
 listRows = []
 
@@ -78,7 +78,7 @@ onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 onlyfiles.sort()
 
-link = 'https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-2/fup/trabalhos/'
+link = 'https://thiagoalvesifce.github.io/disciplinas/2016-2/fup/trabalhos/'
 
 listRows = []
 
