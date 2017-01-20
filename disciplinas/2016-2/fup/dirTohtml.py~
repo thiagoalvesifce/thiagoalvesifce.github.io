@@ -102,7 +102,7 @@ arq.write(auxiliar)
 
 arq.write('<h2>Notas</h2>\n')
 
-#arq.write('<ul>\n<li><a href="https://docs.google.com/spreadsheets/d/1x0rN29DWXVG8-6e4Jksl8iQoLfpbu6WOu55kIBeS5kY" target="_blank">Planilha de Notas</a></li></ul>')
+arq.write('<ul>\n<li><a href="https://docs.google.com/spreadsheets/d/1x0rN29DWXVG8-6e4Jksl8iQoLfpbu6WOu55kIBeS5kY" target="_blank">Planilha de Notas</a></li></ul>')
 
 #trabsPassados = '<ul>\n<li><a href="logicompstudents.html">Trabalhos Passados</a></li>\n</ul>\n<hr>'
 
