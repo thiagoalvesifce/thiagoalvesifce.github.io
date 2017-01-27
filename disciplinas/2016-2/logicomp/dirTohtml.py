@@ -74,6 +74,27 @@ arq.write('<h2>Trabalhos</h2>\n')
 
 #arq.write('<ul>\n<li><a href="https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-1/logicomp/trabalhos/Trabalho1Tableaux.pdf" target="_blank">Trabalho 1 - Tableaux</a></li>\n<li><a href="https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-1/logicomp/trabalhos/Trabalho1Resolu%C3%A7%C3%A3o.pdf" target="_blank">Trabalho 1 - Resolução</a></li>\n<li><a href="https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-1/logicomp/trabalhos/Trabalho1DPLL.pdf" target="_blank">Trabalho 1 - DPLL</a></li>\n<li><a href="https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-1/logicomp/trabalhos/testeSat.cnf" target="_blank">Exemplo Satisfatível</a></li>\n<li><a href="https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-1/logicomp/trabalhos/testeUnsat.cnf">Exemplo Insatisfatível</a></li>\n<li><a href="https://dl.dropboxusercontent.com/u/4914805/site/disciplinas/2016-1/logicomp/trabalhos/Trabalho2Aplicacao.pdf" target="_blank">Temas do Trabalho 2</a></li>\n</ul>\n')
 
+mypath = os.getcwd() + '/trabalhos'
+
+onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+
+onlyfiles.sort()
+
+link = 'https://thiagoalvesifce.github.io/disciplinas/2016-2/logicomp/trabalhos/'
+
+listRows = []
+
+for name in onlyfiles:
+	if name[-3:] == 'pdf' and name[:-1] != '~':
+		row = '<li><a href="' + link + name + '" target="_blank">' + name[:-4] + '</a></li>'
+		listRows.append(row)
+
+
+for row in listRows:
+	arq.write(row + '\n')
+
+arq.write('</ul>\n')
+
 
 arq.write('<h2>Entrega de Trabalhos</h2>\n')
 #arq.write('<ul>\n<li><a href="https://www.dropbox.com/request/O9sT4kH65jrmIrgTaTKD" target="_blank">Entrega do Trabalho 01 - Tableaux</a></li>\n<li><a href="https://www.dropbox.com/request/d5iKeXFSqmxszWJmyjBJ" target="_blank">Entrega do Trabalho 01 - Resolução</a></li>\n<li><a href="https://www.dropbox.com/request/x0cwccC9ktnxoqNEJB8q" target="_blank">Entrega do Trabalho 01 - DPLL</a></li></ul>\n')
