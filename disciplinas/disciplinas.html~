@@ -13,15 +13,16 @@
 <li><a href="2016-2/fup/fup.html">Fundamentos de Programação</a></li>
 <li><a href="2016-2/logicomp/logicomp.html">Lógica para Computação</a></li>
 <li><a href="2016-2/tcomp/tcomp.html">Teoria da Computação</a></li>
+<li><a href="2016-2/tcomp/tcomp.html">Linguagens de Programação</a></li>
 </ul>
 
 <hr>
 
 <li> 2016.1
 <ul type=square>
-<li><!--<a href="2016-1/logicomp/logicomp.html">Lógica para Computação</a>--></li>
-<li><!--<a href="2016-1/tcomp/tcomp.html">Teoria da Computação</a>--></li>
-<li><!--<a href="2016-1/lip/lip.html">Linguagens de Programação</a>--></li>
+<li><!--<a href="2016-1/logicomp/logicomp.html">Lógica para Computação</a>-->Lógica para Computação</li>
+<li><!--<a href="2016-1/tcomp/tcomp.html">Teoria da Computação</a>-->Teoria da Computação</li>
+<li><!--<a href="2016-1/lip/lip.html">Linguagens de Programação</a>-->Linguagens de Programação</li>
 </ul>
 
 <hr>
