@@ -83,7 +83,7 @@ link = 'https://thiagoalvesifce.github.io/disciplinas/2016-2/fup/trabalhos/'
 listRows = []
 
 for name in onlyfiles:
-	if name[-3:] == 'pdf' and name[:-1] != '~':
+	if name[-3:] == 'zip' and name[:-1] != '~':
 		row = '<li><a href="' + link + name + '" target="_blank">' + name[:-4] + '</a></li>'
 		listRows.append(row)
 
