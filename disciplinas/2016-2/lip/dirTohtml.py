@@ -71,12 +71,12 @@ for row in listRows:
 arq.write('</ul>\n')
 '''
 arq.write('<h2>Trabalhos</h2>\n')
-
+'''
 arq.write('<h2>Notas</h2>\n')
 
-arq.write('<ul>\n<li><a href="https://docs.google.com/spreadsheets/d/18q1v5XA4J-yDgpXjtRR9H6p36T54I7d0x2zUz1y0kXw" target="_blank">Planilha de Notas</a></li></ul>')
+arq.write('<ul>\n<li><a href="https://docs.google.com/spreadsheets/d/1Dcc56P6CBgXt2lnN-ACSnPGGl46ZI5N8UfCaa_02YBc/edit#gid=0" target="_blank">Planilha de Notas</a></li></ul>')
 
-
+'''
 auxiliar = '<h2>Material Auxiliar</h2>\n<ul>\n<li><a href="http://www.cs.ox.ac.uk/people/bernard.sufrin/personal/jape.org/" target="_blank">JAPE para Dedução Natural</a></li>\n<li><a href="https://dl.dropboxusercontent.com/u/4914805/ifce/2015.2/l%C3%B3gica%20para%20computa%C3%A7%C3%A3o/Regras%20da%20Dedu%C3%A7%C3%A3o%20Natural/Dedu%C3%A7%C3%A3o%20Natural%20-%20Regras.pdf" target="_blank">Regras da Dedução Natural</a></li>\n</ul>\n<hr>'
 
 arq.write(auxiliar)
