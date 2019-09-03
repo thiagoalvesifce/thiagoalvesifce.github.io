@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -86,13 +86,13 @@ figure {
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
     #colorlib-aside {
-      width: 300px;
-      -moz-transform: translateX(-300px);
-      -webkit-transform: translateX(-300px);
-      -ms-transform: translateX(-300px);
-      -o-transform: translateX(-300px);
-      transform: translateX(-300px);
-      padding-top: 4em; } }
+      position: relative;
+      float: none;
+      height: 100% !important;
+      padding-top: 4em;
+      width: 100vw;
+    }
+  }
   #colorlib-aside .author-img {
     width: 150px;
     height: 150px;
