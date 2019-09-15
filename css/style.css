@@ -137,7 +137,7 @@ figure {
         list-style: none;
         font-size: 12px;
         font-weight: 500;
-        text-transform: uppercase;
+        text-transform: uppercase;/* Teaching and Publications */
         letter-spacing: 1px; }
         #colorlib-aside #colorlib-main-menu ul li a {
           color: rgba(0, 0, 0, 0.7);
@@ -457,9 +457,9 @@ body.offcanvas {
   display: block;
   width: 100%;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: none; /* Logic for Computer Science and Programming Fundamentals*/
   font-family: "Quicksand", Arial, sans-serif;
   background-color: #2c98f0;
   color: #fff;
