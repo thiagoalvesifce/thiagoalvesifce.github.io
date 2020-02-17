@@ -131,8 +131,7 @@
 									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingOne">
 									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Logic for Computer Science
-									            </a>
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Logic for Computer Science</a>
 									        </h4>
 									    </div>
 									    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
@@ -140,10 +139,13 @@
 									            <!--<div class="row">-->
 										      		<!--<div class="col-md-6">-->
 																<h4>Textbooks</h4>
-										      			<p>Mordechai Ben-Ari, <b>Mathematical Logic for Computer Science</b>, 2012.</p>
-																<p>Stuart Russel and Peter Norvig, <b>Artificial Intelligence: A Modern Approach</b>, 2009.</p>
-																<p>Michael Huth and Mark Ryan, <b>Logic in Computer Science: Modelling and Reasoning About Systems</b>, 2004.</p>
-																<p>João Nunes de Souza, <b>Lógica para Ciência da Computação e áreas afins</b>, 2015.</p>
+																<p>Flávio da Silva, Marcelo Finger and Ana de Melo, <b>Lógica para Computação</b>, 2006. (LC)</p>
+																<p>João de Souza, <b>Lógica para Ciência da Computação e áreas afins</b>, 2015. (LCC)</p>
+																<p>Mordechai Ben-Ari, <b>Mathematical Logic for Computer Science</b>, 2012. (MLCS)</p>
+																<p>Stuart Russel and Peter Norvig, <b>Artificial Intelligence: A Modern Approach</b>, 2009. (AIMA)</p>
+																<p>Michael Huth and Mark Ryan, <b>Logic in Computer Science: Modelling and Reasoning About Systems</b>, 2004. (LCS)</p>
+																<p>Armin Biere, et al., <b>Handbook of Satisfiability</b>, 2009. (HS)</p>
+																<p>Donald Knuth, <b>The Art of Computer Programming, Volume 4, Fascicle 6: Satisfiability</b>, 2015. (TACP)</p>
 																<br>
 																<h4>Schedule</h4>
 																<table>
@@ -152,18 +154,22 @@
 																    <th scope="col"><b> Readings </b></th>
 														  		</tr>
 																	<tr>
-																    <td> Introduction </td>
-																    <td> MLCS: Sec. 1.1-1.3, LCS: Sec. 1.1 </td>
+																    <td> Introduction and Motivation </td>
+																    <td> LCS: Sec. 1.1, LCC: Sec. 1.1, LC: Sec. 1.1<!--MLCS: Sec. 1.1-1.3--> </td>
 														  		</tr>
 																	<tr>
-																    <td> Propositional Formulas </td>
-																    <td> MLCS: Sec. 2.1, LCS: Sec. 1.3, AIMA: Sec. 7.4.1 </td>
+																    <td> Formulas of Propositional Logic </td>
+																    <td> LC: Sec. 1.2, LCC: Sec. 1.2-1.7, LCS: Sec. 1.3<!--MLCS: Sec. 2.1, LCS: Sec. 1.3, AIMA: Sec. 7.4.1--> </td>
 														  		</tr>
 																	<tr>
-																		<td> Interpretations </td>
-																    <td> MLCS: Sec. 2.2, LCS: Sec. 1.4.1, AIMA: Sec. 7.4.2 </td>
+																		<td> Semantics of Propositional Logic </td>
+																    <td> LC: Sec. 1.3, LCC: Ch. 2, LCS: Sec. 1.4.1-1.4.2<!--MLCS: Sec. 2.2, LCS: Sec. 1.4.1, AIMA: Sec. 7.4.2--> </td>
 														  		</tr>
 																	<tr>
+																		<td> Natural Deduction </td>
+																    <td> LCS: Sec. 1.2 </td>
+														  		</tr>
+																	<!--<tr>
 																		<td> Logical Equivalence </td>
 																    <td> MLCS: Sec. 2.3, LCC: Sec. 3.6 </td>
 														  		</tr>
@@ -210,24 +216,30 @@
 																	<tr>
 																		<td> Tableaux for First-Order Logic </td>
 																    <td> MLCS: Sec. 7.4 </td>
-														  		</tr>
+														  		</tr>-->
 																</table>
 																<br>
 																<br>
+																<h4>Tools</h4>
+																<p><a href="https://pysathq.github.io/" target="_blank">PySAT</a></p>
+																<p><a href="https://www.sat4j.org/" target="_blank">Sat4j</a></p>
+																<p><a href="http://tiny.cc/j2e3jz" target="_blank">Slack</a></p>
+																<br>
 																<h4>Assignments</h4>
-																<p><a href="Assignment 01 - Formulas and Interpretations.pdf" target="_blank">Assignment 01 - Formulas and Interpretations</a></p>
+																<!--<p><a href="Assignment 01 - Formulas and Interpretations.pdf" target="_blank">Assignment 01 - Formulas and Interpretations</a></p>
 																<p><a href="Assignment 02 - Equivalence and Consequence.pdf" target="_blank">Assignment 02 - Equivalence and Consequence</a></p>
 																<p><a href="Assignment 03 - Validity and Satisfiability.pdf" target="_blank">Assignment 03 - Validity and Satisfiability</a></p>
 																<p><a href="Assignment 04 - Tableaux.pdf" target="_blank">Assignment 04 - Tableaux</a></p>
 																<p><a href="Assignment 05 - CNF, Resolution and DPLL.pdf" target="_blank">Assignment 05 - CNF, Resolution and DPLL</a></p>
 																<p><a href="Assignment 06 - First-order Formulas and Interpretations.pdf" target="_blank">Assignment 06 - First-order Formulas and Interpretations</a></p>
-																<p><a href="Assignment 07 - First-order Logic - Semantic Properties and Tableaux.pdf" target="_blank">Assignment 07 - First-order Logic - Semantic Properties and Tableaux</a></p>
+																<p><a href="Assignment 07 - First-order Logic - Semantic Properties and Tableaux.pdf" target="_blank">Assignment 07 - First-order Logic - Semantic Properties and Tableaux</a></p>-->
 																<br>
 																<h4>Projects</h4>
-																<p><a href="Final_Project_Part1.zip" target="_blank">Final Project - Part 1</a></p>
-																<p><a href="Final_Project.zip" target="_blank">Final Project - Part 2</a></p>
+																<!--<p><a href="Final_Project_Part1.zip" target="_blank">Final Project - Part 1</a></p>
+																<p><a href="Final_Project.zip" target="_blank">Final Project - Part 2</a></p>-->
 																<br>
-																<h4><a href="https://bit.ly/2mahDSt" target="_blank">Grades</a></h4>
+
+																<h4><a href="https://bit.ly/2HsysiZ" target="_blank">Grades</a></h4>
 															<!--</div>col-md-6-->
 										      		<!-- <div class="col-md-6">
 																<h4>Schedule</h4>
@@ -237,7 +249,7 @@
 									    </div>
 									</div>
 
-									<!-- <div class="panel panel-default">
+									<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingTwo">
 									        <h4 class="panel-title">
 									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Theory of Computation
@@ -246,16 +258,68 @@
 									    </div>
 									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 									        <div class="panel-body">
-									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+														<h4>Textbooks</h4>
+														<p>John Hopcroft, Rajeev Motwani and Jeffrey Ullman, <b>Introduction to Automata Theory, Languages, and Computation</b>, 2006. (IATLC)</p>
+														<p>Michael Sipser, <b>Introduction to the Theory of Computation</b>, 2012. (ITC)</p>
+														<br>
+														<h4>Schedule</h4>
+														<table>
+															<tr>
+																<th scope="col"><b> Topics </b></th>
+																<th scope="col"><b> Readings </b></th>
+															</tr>
+															<tr>
+																<td> Introduction and Motivation </td>
+																<td> IATLC: Sec. 1.1, Sec. 2.1 </td>
+															</tr>
+															<tr>
+																<td> Deterministic Finite Automata </td>
+																<td> IATLC: Sec. 1.5, Sec. 2.2.1-2.2.3 </td>
+															</tr>
+															<tr>
+																<td> Regular Languages </td>
+																<td> IATLC: Sec. 2.2.4-2.2.5 </td>
+															</tr>
+															<tr>
+																<td> Proofs and Complement of a Regular Language </td>
+																<td> IATLC: Sec. 1.2-1.4, Sec. 4.2.1 </td>
+															</tr>
+															<tr>
+																<td> Nondeterministic Finite Automata </td>
+																<td> IATLC: Sec. 2.3.1-2.3.2, Sec. 2.5.1-2.5.2 </td>
+															</tr>
+															<tr>
+																<td> Epsilon-Closures </td>
+																<td> IATLC: Sec. 2.5.3-2.5.4 </td>
+															</tr>
+															<tr>
+																<td> Equivalence of DFA and NFA </td>
+																<td> IATLC: Sec. 2.5.5, Sec. 2.3.5 </td>
+															</tr>
+														</table>
+														<br>
+														<br>
+														<h4>Tools</h4>
+														<p><a href="http://www.jflap.org/" target="_blank">JFLAP</a></p>
+														<p><a href="http://tiny.cc/mpe3jz" target="_blank">Slack</a></p>
+														<br>
+														<h4>Assignments</h4>
+
+														<br>
+														<h4>Projects</h4>
+														<br>
+														<h4><a href="http://tiny.cc/ezd3jz" target="_blank">Grades</a></h4>
+
+									        <!--<p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 													<ul>
 														<li>Separated they live in Bookmarksgrove right</li>
 														<li>Separated they live in Bookmarksgrove right</li>
-													</ul>
+													</ul>-->
 									        </div>
 									    </div>
-									</div> -->
+									</div>
 
-									<div class="panel panel-default">
+									<!--<div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingThree">
 									        <h4 class="panel-title">
 									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Programming Fundamentals
@@ -326,7 +390,7 @@
 														<p><a href="https://bit.ly/2khJfok" target="_blank">Afternoon classes</a></p>
 									        </div>
 									    </div>
-									</div>
+									</div>-->
 
 									<!-- <div class="panel panel-default">
 									    <div class="panel-heading" role="tab" id="headingFour">
